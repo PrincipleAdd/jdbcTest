@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>servletInsert</servlet-name>
+    <servlet-class>jdbcServlet.servletInsert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletInsert</servlet-name>
+    <url-pattern>/classTest/servletInsert</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>servletDelete</servlet-name>
+    <servlet-class>jdbcServlet.servletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletDelete</servlet-name>
+    <url-pattern>/classTest/servletDelete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>servletSelect</servlet-name>
+    <servlet-class>jdbcServlet.servletSelect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletSelect</servlet-name>
+    <url-pattern>/classTest/servletSelect</url-pattern>
+  </servlet-mapping>
+</web-app>
